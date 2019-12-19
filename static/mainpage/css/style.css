@@ -113,6 +113,9 @@ h6 {
 /* ---------------------------------------------- /*
  * Reset border-radius
 /* ---------------------------------------------- */
+.row {
+	margin-left: 0; margin-right: 0;
+}
 
 .btn,
 .iconbox,
@@ -234,7 +237,10 @@ input:nth-child(3n){
 /* ---------------------------------------------- */
 
 .pfblock {
-	padding: 120px 0 100px;
+    height:100%;
+    width:100%;
+    padding-bottom: 200px;
+    padding-top: 60px;
 
 }
 
@@ -283,6 +289,7 @@ input:nth-child(3n){
 	font-style: normal;
 	font-size: 18px;
 	color: whitesmoke;
+    word-break: break-word;
 }
 
 .pfblock-line {
@@ -293,10 +300,10 @@ input:nth-child(3n){
 }
 
 #myphoto {
-	margin-top: 10vh;
+	/*margin-top: 10vh;*/
 	border-radius: 100%;
 	filter: grayscale(60%);
-	width: 300px;
+	width: 75%;
 }
 
 .skills {
@@ -718,7 +725,6 @@ div[class^="devicon"] span{
 
 .card {
 	padding: 0px 10px 0px 5px;
-	margin: 10px 30px 10px;
 	border: 1px solid lightgray;
 }
 
@@ -855,9 +861,9 @@ figure.effect-bubba:hover p {
 	transform: translate3d(0,0,0);
 }
 
-#myphoto {
-	margin-top: 10vh;
-	border-radius: 100%;
-	filter: grayscale(30%);
-	width: 300px;
-}
+/*#myphoto {*/
+	/*!*margin-top: 10vh;*!*/
+	/*border-radius: 100%;*/
+	/*filter: grayscale(30%);*/
+	/*width: 300px;*/
+/*}*/
