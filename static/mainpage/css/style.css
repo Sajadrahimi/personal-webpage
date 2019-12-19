@@ -116,7 +116,13 @@ h6 {
 .row {
 	margin-left: 0; margin-right: 0;
 }
-
+.card-img-top{
+	max-width: 20%;
+	max-height: 20%;
+}
+.card-title{
+	color: whitesmoke!important;
+}
 .btn,
 .iconbox,
 .progress,
@@ -772,11 +778,10 @@ div[class^="devicon"] span{
 	display: inline-block;
 	background-color: #E7746F;
 	color: white;
-	margin-left: 5px;
 	padding: 1px 10px;
 	margin-bottom: 20px;
 	border-radius: 4px;
-	font: 5px sans-serif;
+	font: 10px sans-serif;
 }
 
 .tools > span:hover {
